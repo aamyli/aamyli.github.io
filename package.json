@@ -1,9 +1,9 @@
 {
-  "name": "react-portfolio-template",
+  "name": "portfolio-spring-21",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "welcome to my website!",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Amy Li",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",

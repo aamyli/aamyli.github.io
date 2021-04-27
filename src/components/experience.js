@@ -3,11 +3,11 @@ import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
-const Promotion = () => {
+const Experience = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="promotion-container">
+        <div className="experience-container">
           <Fade bottom cascade>
             <h1>experience</h1>
           </Fade>

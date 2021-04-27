@@ -1,6 +1,6 @@
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
-import Logo from "../images/black logo.png"
+import Logo from "../images/black_logo.png"
 const Navbar = () => {
   return (
     <div className="section">
