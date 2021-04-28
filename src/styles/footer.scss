@@ -11,7 +11,7 @@
   }
   h2 {
     font-size: 1.5rem;
-    overflow: hidden;
+    // overflow: hidden;
     @include media(">=phone", "<lgphone") {
       display: none;
     }
@@ -26,12 +26,9 @@
     font-size: 1.5rem;
     color: black;
   }
-  .social-icons {
-    margin-top: 20px;
-    img {
-      height: 2rem;
-      margin: 10px;
-    }
+  img {
+    height: 2rem;
+    margin: 10px;
   }
   span {
     margin-top: 10px;
@@ -40,3 +37,10 @@
     color: red;
   }
 }
+// .socials {
+//   margin-top: 20px;
+//   img {
+//     height: 2rem;
+//     margin: 10px;
+//   }
+// }

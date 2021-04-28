@@ -1,5 +1,11 @@
 .experience-container {
-  width: 80vw;
+  width: 70vw;
+  @include media(">=phone", "<lgphone") {
+    width: 80vw;
+  }
+  @include media(">=lgphone", "<tablet") {
+    width: 80vw;
+  }
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
@@ -7,10 +13,88 @@
   // text-align: center;
   h1 {
     font-size: 3rem;
-    line-height: 20px;
+    //line-height: 20px;
     text-align: right;
+    margin-bottom: 0;
+    @include media(">=phone", "<lgphone") {
+      font-size: 23px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 23px;
+    }
   };
+  h2 {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: right;
+    margin-top: 0;
+    @include media(">=phone", "<lgphone") {
+      font-size: 14px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 17px;
+    }
+  }
+  h4 {
+    font-weight: 400;
+    @include media(">=phone", "<lgphone") {
+      font-size: 14px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 14px;
+    }
+  }
+  h3 {
+    @include media(">=phone", "<lgphone") {
+      font-size: 17px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 17px;
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 22px;
+    @include media(">=phone", "<lgphone") {
+      text-align: left;
+      font-size: 11px;
+      line-height: 15px;
+      margin-left: 0;
+    }
+    @include media(">=lgphone", "<tablet") {
+      text-align: left;
+      font-size: 11px;
+      line-height: 15px;
+      margin-left: 0;
+    }
+    @include media(">=tablet", "<desktop") {
+      text-align: left;
+    }
+  }
   .timeline {
     align-self: right;
+  }
+  .timeline-item-dateinner{
+    @include media(">=phone", "<lgphone") {
+      font-size: 10px !important;
+      line-height: 30px;
+      height: 30px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 10px !important;
+      line-height: 30px;
+      height: 30px;
+    }
+  }
+  .timeline-item-date {
+    @include media(">=phone", "<lgphone") {
+      height: 30px;
+      width: 80%;
+
+    }
+    @include media(">=lgphone", "<tablet") {
+      height: 30px;
+      width: 60%;
+    }
   }
 }

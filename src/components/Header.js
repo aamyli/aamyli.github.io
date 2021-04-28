@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import Resume from "../assets/AmyLi_Resume.pdf"
+import Resume from "../assets/resume.pdf"
 
 const Header = () => {
   return (
@@ -32,10 +32,10 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={Resume}
+              href={Resume} target="_blank"
               className="primary-btn"
             >
-              view my resume!
+             view my resume!
             </a>
           </Fade>
         </div>

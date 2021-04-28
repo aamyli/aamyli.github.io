@@ -41,7 +41,7 @@ const About = () => {
                 </li>
                 <li>
                   finding ways to stay connected, and hoping to go back to campus soon!{" "} <span role="img" aria-label="Emoji">
-                  🍵
+                  🤞
                   </span>
                 </li>
 
