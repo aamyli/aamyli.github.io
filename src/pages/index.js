@@ -13,7 +13,7 @@ import withSplashScreen from "../components/splashscreen"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="AMY LI" />
     <Header></Header>
     <About></About>
     <Experience></Experience>

@@ -8,3 +8,6 @@ boilerplate from **[here](https://github.com/topics/react-portfolio-template)**
 
 - [React](https://reactjs.org/)
 - [Gatsby](https://www.gatsbyjs.com/)
+
+## notes to self
+- fix navbar responsitivity -> make collapse

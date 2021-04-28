@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi! I'm {data.name}{" "}
+              hi! I'm Amy{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
@@ -19,31 +19,23 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {data.headerTagline}
+                student developer + aspiring change-maker
               </h1>
-              {/* <h1>
-                {" "}
-                {data.headerTagline[1]
-                  ? data.headerTagline[1]
-                  : "products, brands"}
-              </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1> */}
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
+            <p>
+              <span role="img" aria-label="Emoji">
+                💡
+              </span>
+              {" "}currently exploring: backend development, making prettier sushi, AI basics, caring for new plants, and non-fiction reads </p>
           </Fade>
           <Fade bottom>
             <a
               href={Resume}
               className="primary-btn"
             >
-              view my resume
+              view my resume!
             </a>
           </Fade>
         </div>

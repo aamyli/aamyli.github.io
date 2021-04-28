@@ -65,4 +65,4 @@ const Experience = () => {
   )
 }
 
-export default Promotion
+export default Experience

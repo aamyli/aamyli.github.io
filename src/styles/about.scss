@@ -1,7 +1,8 @@
 .about-section {
-  width: 80vw;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
+  line-height: 23px;
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
   }
@@ -13,12 +14,16 @@
     align-items: center;
   }
   .content {
-    width: 50%;
+    width: 60%;
     @include media(">=phone", "<lgphone") {
       width: 100%;
+      font-size: 12px;
+      line-height: 20px;
     }
     @include media(">=lgphone", "<tablet") {
       width: 100%;
+      font-size: 14px;
+      line-height: 20px;
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
@@ -27,30 +32,56 @@
     h1 {
       font-size: 3rem;
       line-height: 20px;
-      @include media(">=tablet", "<desktop") {
-        text-align: center;
+      @include media(">=phone", "<lgphone") {
+        font-size: 23px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 23px;
       }
     }
-    p {
+    .about-facts {
+      margin-left: 10px;
+      font-size: 14px;
+      line-height: 22px;
+      @include media(">=phone", "<lgphone") {
+        text-align: left;
+        font-size: 11px;
+        line-height: 15px;
+        margin-left: 0;
+      }
+      @include media(">=lgphone", "<tablet") {
+        text-align: left;
+        font-size: 11px;
+        line-height: 15px;
+        margin-left: 0;
+      }
       @include media(">=tablet", "<desktop") {
-        text-align: center;
+        text-align: left;
       }
     }
   }
   .image-wrapper {
     width: 50%;
+    margin-left: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
+      height: 60vh;
       width: 100%;
+      margin-left: 0px;
+      margin-bottom: 20px;
     }
     @include media(">=lgphone", "<tablet") {
       width: 100%;
+      margin-left: 0px;
+      margin-bottom: 20px;
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
+      margin-left: 0px;
+      margin-bottom: 20px;
     }
   }
 }
