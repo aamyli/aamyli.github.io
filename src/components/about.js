@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 //import data from "../yourdata"
 
-import profile from "../images/profile.png"
+import profile from "../images/profile2.png"
 import plant from "../images/plant.png"
 import city from "../images/city.png"
 
@@ -58,15 +58,15 @@ const About = () => {
           <div className="image-wrapper">
             <div className="img-profile-wrap">
               <img className="img-profile" src={profile} alt="about"></img>
-              <p className="img-profile-desc">hover over the other two images for more exciting captions(:</p>
+              <p className="img-profile-desc">hi these hover things took me a while to make lol</p>
             </div>
             <div className="img-plant-wrap">
               <img className="img-plant" src={plant} alt="about"></img>
-              <p className="img-plant-desc">I’m no expert at plants but here’s the newest addition to the family!</p>
+              <p className="img-plant-desc">I’m no expert at plants but the family is always growing... here’s the newest addition!</p>
             </div>
            <div className="img-city-wrap">
               <img className="img-city" src={city} alt="about"></img>
-              <p className="img-city-desc">growing up in smaller towns, I’ve always gravitated towards big cities and all the potential I feel whenever I visit one. from the design to the people to the culture, I hope I’ll find one that’ll be home one day.</p>
+              <p className="img-city-desc">Growing up in smaller towns, I’ve always gravitated towards big cities and all the potential I feel whenever I visit one. From the design to the people to the culture, I hope I’ll find one that’ll be home one day.</p>
            </div>
             
           </div>

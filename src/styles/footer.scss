@@ -26,9 +26,20 @@
     font-size: 1.5rem;
     color: black;
   }
-  img {
-    height: 2rem;
+  .linkedin {
+    height: 1.5rem;
     margin: 10px;
+  }
+  .github {
+    height: 1.5rem;
+    margin: 10px;
+  }
+  .email {
+    height: 1.3rem;
+    margin: 10px;
+  }
+  img:hover {
+    opacity: 70%;
   }
   span {
     margin-top: 10px;
