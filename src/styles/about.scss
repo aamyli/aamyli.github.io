@@ -88,7 +88,6 @@
       width: 300px;
       @include media(">=phone", "<desktop") {
         height: 20vw;
-        width: auto;
         transform: none;
       }
     }

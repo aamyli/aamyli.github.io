@@ -10,13 +10,13 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              hi! I'm Amy{" "}
+              Hi! I'm Amy{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
             </h2>
           </Fade>
-          <Fade bottom cascade>
+          <Fade bottom>
             <div className="heading-wrapper">
               <h1>
                 student developer + aspiring change-maker

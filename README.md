@@ -11,3 +11,6 @@ boilerplate from **[here](https://github.com/topics/react-portfolio-template)**
 
 ## notes to self
 - fix navbar responsitivity -> make collapse
+- fix about photos responsitivity 
+- contact
+- links / desc. edits on projects tbd 

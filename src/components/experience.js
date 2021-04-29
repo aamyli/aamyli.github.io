@@ -5,7 +5,7 @@ import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const Experience = () => {
   return (
-    <div className="section">
+    <div className="section" id="experience">
       <div className="container">
         <div className="experience-container">
           <Fade bottom cascade>
