@@ -1,8 +1,7 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
-import Projects from "./projects"
-import data from "../yourdata"
+import data from "../projects-data"
 
 const Work = () => {
   return (

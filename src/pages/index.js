@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Work from "../components/work"
 import About from "../components/about"
-// import Skills from "../components/skills" -> maybe do an interests section?
 import Experience from "../components/experience"
 import Footer from "../components/footer"
 import withSplashScreen from "../components/splashscreen"

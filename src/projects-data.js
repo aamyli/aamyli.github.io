@@ -6,9 +6,6 @@ import five from "./images/five.png"
 import carousel from "./images/carousel.png"
 
 export default {
-  //Contact Email
-  contactEmail: "amy.li2@uwaterloo.ca",
-
   // work section
   projects: [
     {

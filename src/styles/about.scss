@@ -64,17 +64,23 @@
     width: 400px;
     margin-left: 20px;
     @include media(">=phone", "<lgphone") {
+      margin-left: 0px;
       width: 100%;
+      height: auto !important;
       display: flex;
       justify-content: space-between;
     }
     @include media(">=lgphone", "<tablet") {
+      margin-left: 0px;
       width: 100%;
+      height: auto !important;
       display: flex;
       justify-content: space-between;
     }
     @include media(">=tablet", "<desktop") {
+      margin-left: 0px;
       width: 100%;
+      height: auto !important;
       display: flex;
       justify-content: space-between; 
     }
@@ -85,15 +91,16 @@
     // overflow: hidden;
     .img-profile-wrap {
       height: 300px;
-      width: 300px;
+      // width: 300px;
       @include media(">=phone", "<desktop") {
         height: 20vw;
+        width: 30%;
+        text-align: center;
         transform: none;
       }
     }
     .img-profile {
       height: 300px;
-      z-index: 3;
       @include media(">=phone", "<lgphone") {
         height: 20vw;
       }
@@ -136,6 +143,8 @@
       transform: translate(75%, -70%);
       @include media(">=phone", "<desktop") {
         height: 20vw;
+        width: 30%;
+        text-align: center;
         transform: none;
       }
     }
@@ -187,6 +196,8 @@
       transform: translate(25%, -80%);
       @include media(">=phone", "<desktop") {
         height: 20vw;
+        width: 30%;
+        text-align: center;
         transform: none;
       }
     }
