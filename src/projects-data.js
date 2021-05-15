@@ -42,7 +42,7 @@ export default {
       para:
         "Full-stack web app that edits uploaded images based on audio and lyrical analysis of chosen songs, leveraging Azure's sentiment analysis and Python's PIL library.",
       imageSrc: finetuned,
-      url: "https://github.com/aamyli/finetuned",
+      url: "https://github.com/ryli123/finetuned",
     },
     {
       title: "five", 

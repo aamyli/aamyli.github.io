@@ -125,18 +125,18 @@
       transition: opacity .2s, visibility .2s;
     }
     
-    .img-profile-wrap:hover .img-profile-desc {
-      @include media(">=desktop") {
-        visibility: visible;
-        opacity: 1;
-      } 
-    }
-    .img-profile-wrap:hover .img-profile {
-      @include media(">=desktop") {
-        opacity: 70%;
-        filter: brightness(80%);;
-      } 
-    }
+    // .img-profile-wrap:hover .img-profile-desc {
+    //   @include media(">=desktop") {
+    //     visibility: visible;
+    //     opacity: 1;
+    //   } 
+    // }
+    // .img-profile-wrap:hover .img-profile {
+    //   @include media(">=desktop") {
+    //     opacity: 70%;
+    //     filter: brightness(80%);;
+    //   } 
+    // }
 
     .img-plant-wrap {
       height: 200px;
@@ -178,18 +178,18 @@
       transition: opacity .2s, visibility .2s;
     }
     
-    .img-plant-wrap:hover .img-plant-desc {
-      @include media(">=desktop") {
-        visibility: visible;
-        opacity: 1;
-      } 
-    }
-    .img-plant-wrap:hover .img-plant {
-      @include media(">=desktop") {
-        opacity: 70%;
-        filter: brightness(50%);;
-      } 
-    }
+    // .img-plant-wrap:hover .img-plant-desc {
+    //   @include media(">=desktop") {
+    //     visibility: visible;
+    //     opacity: 1;
+    //   } 
+    // }
+    // .img-plant-wrap:hover .img-plant {
+    //   @include media(">=desktop") {
+    //     opacity: 70%;
+    //     filter: brightness(50%);;
+    //   } 
+    // }
 
     .img-city-wrap {
       height: 250px;
@@ -232,18 +232,18 @@
       transition: opacity .2s, visibility .2s;
     }
 
-    .img-city-wrap:hover .img-city-desc {
-      @include media(">=desktop") {
-        visibility: visible;
-        opacity: 1;
-      } 
-    }
-    .img-city-wrap:hover .img-city {
-      @include media(">=desktop") {
-        opacity: 70%;
-        filter: brightness(50%);;
-      } 
-    }
+    // .img-city-wrap:hover .img-city-desc {
+    //   @include media(">=desktop") {
+    //     visibility: visible;
+    //     opacity: 1;
+    //   } 
+    // }
+    // .img-city-wrap:hover .img-city {
+    //   @include media(">=desktop") {
+    //     opacity: 70%;
+    //     filter: brightness(50%);;
+    //   } 
+    // }
 
     @include media(">=phone", "<lgphone") {
       height: 60vh;
