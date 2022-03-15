@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7e3720d.css",
-    "main.js": "/static/js/main.88c44456.js",
-    "static/js/787.7d004be2.chunk.js": "/static/js/787.7d004be2.chunk.js",
-    "static/media/site_logo.gif": "/static/media/site_logo.1e052aa1c7f4124cc174.gif",
-    "static/media/github.png": "/static/media/github.9eff1fd3bf5b978a2cab.png",
-    "static/media/linkedin.png": "/static/media/linkedin.ba884e1f9ad4362348c1.png",
-    "static/media/mail.png": "/static/media/mail.1c8d205450d8497d206b.png",
-    "index.html": "/index.html",
-    "main.e7e3720d.css.map": "/static/css/main.e7e3720d.css.map",
-    "main.88c44456.js.map": "/static/js/main.88c44456.js.map",
-    "787.7d004be2.chunk.js.map": "/static/js/787.7d004be2.chunk.js.map"
+    "main.css": "/aamyli.github.io/static/css/main.e7e3720d.css",
+    "main.js": "/aamyli.github.io/static/js/main.f263a491.js",
+    "static/js/787.7d004be2.chunk.js": "/aamyli.github.io/static/js/787.7d004be2.chunk.js",
+    "static/media/site_logo.gif": "/aamyli.github.io/static/media/site_logo.1e052aa1c7f4124cc174.gif",
+    "static/media/github.png": "/aamyli.github.io/static/media/github.9eff1fd3bf5b978a2cab.png",
+    "static/media/linkedin.png": "/aamyli.github.io/static/media/linkedin.ba884e1f9ad4362348c1.png",
+    "static/media/mail.png": "/aamyli.github.io/static/media/mail.1c8d205450d8497d206b.png",
+    "index.html": "/aamyli.github.io/index.html",
+    "main.e7e3720d.css.map": "/aamyli.github.io/static/css/main.e7e3720d.css.map",
+    "main.f263a491.js.map": "/aamyli.github.io/static/js/main.f263a491.js.map",
+    "787.7d004be2.chunk.js.map": "/aamyli.github.io/static/js/787.7d004be2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7e3720d.css",
-    "static/js/main.88c44456.js"
+    "static/js/main.f263a491.js"
   ]
 }
