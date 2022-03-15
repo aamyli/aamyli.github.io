@@ -15,7 +15,7 @@ export default class Home extends Component {
           <Col className="left-content" md={6}>
             <Row>
             <Row className="left-title">
-              Hi, I'm Amy
+              Hi, I'm Amy 
             </Row>
             <Row className="left-intro">
               <p className="p1"><span className="p-start">experimenting with</span> my sewing machine, product scoping, all things coffee</p>
