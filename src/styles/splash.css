@@ -1,0 +1,53 @@
+.splash-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  @keyframes fade-out {
+    0% {
+      opacity: 100%;
+    }
+  
+    80% {
+      opacity: 0%;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+  
+  .ss_logo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: ease-in-out;
+    animation-name: fade-out;
+    animation-duration: 3s;
+  }
+  
+  .splash-screen img {
+    height: 150px;
+  
+    /* margin-top: auto;
+    margin-bottom: auto; */
+  }
+  
+  /* .splash-screen {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  } */
+  
+  @media (max-width: 576px) {
+    .splash-screen img {
+      height: 100px;
+    }
+  }
+  
