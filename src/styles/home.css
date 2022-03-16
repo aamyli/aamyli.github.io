@@ -26,10 +26,10 @@
         width: 100%;
     }
     .left-title {
-        font-size: 20px !important;
+        font-size: 15px !important;
     }
     .p1, .p2 {
-        font-size: 11px !important;
+        font-size: 10px !important;
     }
     .left-desc {
         font-size: 11px !important;
@@ -39,12 +39,12 @@
     }
     .right-nav {
         text-align: center !important;
-        font-size: 14px !important;
+        font-size: 11px !important;
     }
 }
 
 .left-title {
-    font-size: 27px;
+    font-size: 20px;
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 0;
@@ -58,7 +58,7 @@
 .p1, .p2 {
     padding: 0;
     margin: 0;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .p2 {
@@ -93,7 +93,7 @@
 }
 
 .left-desc {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .left-list {
@@ -120,6 +120,7 @@ a:hover {
 .right-nav {
     margin: 40px;
     text-align: right;
+    font-size: 12px;
     color:rgb(112, 112, 112);
 }
 

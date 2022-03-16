@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
       <Container fluid>
         <Row className="home">
-          <Col className="left-content" md={6}>
+          <Col className="left-content" md={5}>
             <Row>
             <Row className="left-title">
               Hi, I'm Amy 
