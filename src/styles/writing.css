@@ -22,6 +22,9 @@
     .writing-desc {
         font-size: 10px !important;
     }
+    .writing-list {
+        width: 80vw !important;
+    }
 }
 
 .writing-back {
@@ -44,7 +47,7 @@
 
 .writing-list {
     margin-bottom: 100px;
-    width: 70vw;
+    max-width: 850px;
 }
 
 .writing-title {
