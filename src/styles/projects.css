@@ -1,0 +1,40 @@
+.projects {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+@media (max-width: 953px) {
+    .projects-back {
+        font-size: 9px !important;
+    }
+    .projects-header {
+        font-size: 14px !important;
+    }
+}
+
+.projects-back {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 11px;
+    opacity: 50%;
+}
+
+.projects-back:hover {
+    opacity: 90%;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.projects-list {
+    margin-bottom: 100px;
+}
