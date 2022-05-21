@@ -8,7 +8,7 @@ import LinkedIn from '../assets/linkedin.png';
 import Mail from '../assets/mail.png';
 import Profile from '../assets/pic1.png';
 import City from '../assets/pic2.png';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export default class Home extends Component {

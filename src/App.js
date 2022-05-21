@@ -1,6 +1,5 @@
 import './App.css';
 import withSplashScreen from "./components/splashscreen";
-import Layout from "./pages/layout";
 import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Writing from "./pages/writing";
