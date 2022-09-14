@@ -58,23 +58,22 @@ export default class Home extends Component {
                 </a>
               </Row>
               <Row className="left-desc">
-                <p>currently, I am...</p>
+                <p>I'm studying <span className="text-underline">computer science</span> at the <span className="text-underline">University of Waterloo</span> with a business specialization</p>
+                <p>recently, I have...</p>
                 <ul className="left-list">
-                  <li>studying computer science at the <span className="text-underline">University of Waterloo</span> with a business specialization</li>
-                  <li>working on Uber’s <span className="text-underline">Route Engine team</span>, exploring graph theory and ml for route optimization problems </li>
-                  <li>exploring San Francisco and everything west coast this summer! <span className="text-underline">reach out</span> if you’re in the area(:</li>
+                  <li>worked on Uber’s <span className="text-underline">Route Engine team</span>, designing and scaling their routing simulation services ft. some graph theory explorations </li>
+                  <li>explored San Francisco and everything west coast this past summer! (reinspiring a curiousity for <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span>, right in time for my first planning course this term)</li>
                 </ul>
                 <p>and in other moments...</p>
                 <ul className="left-list">
                   <li>finding comfort and challenge in words as <span className="text-underline">I read for myself again</span></li>
-                  <li>learning about <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span> through stories and internet scrolls</li>
                   <li>trying out new “extreme” sports with friends (open to recommendations!)</li>
                 </ul>
               </Row>
               <Row>
                 <p className="right-nav">
                   // &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a href="mailto:amy.li2@uwaterloo.ca" target="_blank" rel="noopener noreferrer" className="link">
+                  <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank" rel="noopener noreferrer" className="link">
                     resume
                   </a> 
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
