@@ -30,7 +30,7 @@ export default class Home extends Component {
                 <p className="p1"><span className="p-start">experimenting with</span> my sewing machine, product management, all things coffee</p>
                 <p className="p2"><span className="p-start">excited for</span> longer days, new homes in tech, large windows and tall buildings</p>
                 <p className="p1"><span className="p-start">aspiring to</span> diversify my media intake, spend time intentionally, go to more museums</p>
-                <p className="p2"><span className="p-start">inspired by</span> big cities, thoughtful writing, people that radiate love for what they do</p>
+                <p className="p2"><span className="p-start">inspired by</span> big cities, thoughtful writing, people that love what they do</p>
               </Row>
               <Row className="left-links">
                 <a
@@ -58,16 +58,17 @@ export default class Home extends Component {
                 </a>
               </Row>
               <Row className="left-desc">
-                <p>I'm studying <span className="text-underline">computer science</span> at the <span className="text-underline">University of Waterloo</span> with a business specialization</p>
+                <p>I'm studying <span className="text-underline">Computer Science</span> at the <span className="text-underline">University of Waterloo</span> with a business specialization</p>
                 <p>recently, I have...</p>
                 <ul className="left-list">
                   <li>worked on Uber’s <span className="text-underline">Route Engine team</span>, designing and scaling their routing simulation services ft. some graph theory explorations </li>
-                  <li>explored San Francisco and everything west coast this past summer! (reinspiring a curiousity for <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span>, right in time for my first planning course this term)</li>
+                  <li>explored San Francisco and everything west coast last summer! (reinspiring a curiousity for <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span>, as I've begun taking on some planning courses)</li>
                 </ul>
                 <p>and in other moments...</p>
                 <ul className="left-list">
                   <li>finding comfort and challenge in words as <span className="text-underline">I read for myself again</span></li>
-                  <li>trying out new “extreme” sports with friends (open to recommendations!)</li>
+                  <li>trying out new “extreme” sports with friends</li>
+                  <li>resuming the rhythm of in-person campus life, as I start the second half of my undergrad</li>
                 </ul>
               </Row>
               <Row>
