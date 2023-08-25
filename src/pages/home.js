@@ -6,8 +6,8 @@ import React, { Component } from "react";
 import Github from '../assets/github.png';
 import LinkedIn from '../assets/linkedin.png';
 import Mail from '../assets/mail.png';
-import Profile from '../assets/pic1.png';
-import City from '../assets/pic2.png';
+import Profile from '../assets/pic3.png';
+import City from '../assets/pic4.png';
 import { Link } from "react-router-dom";
 
 
@@ -27,10 +27,9 @@ export default class Home extends Component {
                 Hi, I'm Amy
               </Row>
               <Row className="left-intro">
-                <p className="p1"><span className="p-start">experimenting with</span> my sewing machine, product management, all things coffee</p>
-                <p className="p2"><span className="p-start">excited for</span> longer days, new homes in tech, large windows and tall buildings</p>
-                <p className="p1"><span className="p-start">aspiring to</span> diversify my media intake, spend time intentionally, go to more museums</p>
-                <p className="p2"><span className="p-start">inspired by</span> big cities, thoughtful writing, people that love what they do</p>
+                <p className="p1"><span className="p-start">excited for</span> longer days, new homes in tech, large windows and tall buildings</p>
+                <p className="p2"><span className="p-start">aspiring to</span> diversify my media intake, spend time intentionally, go to more museums</p>
+                <p className="p1"><span className="p-start">inspired by</span> big cities, thoughtful writing, people that love what they do</p>
               </Row>
               <Row className="left-links">
                 <a
@@ -59,10 +58,11 @@ export default class Home extends Component {
               </Row>
               <Row className="left-desc">
                 <p>I'm studying <span className="text-underline">Computer Science</span> at the <span className="text-underline">University of Waterloo</span> with a business specialization</p>
-                <p>recently, I have...</p>
+                <p>recently, I...</p>
                 <ul className="left-list">
-                  <li>worked on Uber’s <span className="text-underline">Route Engine team</span>, designing and scaling their routing simulation services ft. some graph theory explorations </li>
-                  <li>explored San Francisco and everything west coast last summer! (reinspiring a curiousity for <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span>, as I've begun taking on some planning courses)</li>
+                  <li>am working at <span className="text-underline">Google DeepMind</span> in London this fall - excited to learn and love a new city and a new continent!</li>
+                  <li>spent a summer in New York at Jane Street on the <span className="text-underline">Equities desk</span>, discovering some pretty interesting work in this problem sphere (let's talk about it) (could this be a home?) </li>
+                  <li>explored San Francisco and everything west coast last year, reinspiring a curiousity for <span className="text-underline">urban planning</span> and <span className="text-underline">sustainable design</span>, as I've begun taking on some planning courses</li>
                 </ul>
                 <p>and in other moments...</p>
                 <ul className="left-list">
